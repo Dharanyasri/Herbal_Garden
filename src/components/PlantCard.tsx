@@ -15,7 +15,7 @@ import amlaImage from "@/assets/amla.jpg";
 import gingerImage from "@/assets/ginger.jpg";
 import cardamomImage from "@/assets/cardamom.jpg";
 import fenugreekImage from "@/assets/fenugreek.jpg";
-import cinnamonImage from "@/assets/cinnamon.jpg";
+import cinnamonImage from "@/assets/Cinnamon.jpg";
 import licoriceImage from "@/assets/Licorice.jpg";
 import ginsengImage from "@/assets/Ginseng.jpg";
 import ginkgoImage from "@/assets/Ginkgo.jpg";
