@@ -5,6 +5,8 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ArrowLeft, Calendar, MapPin } from "lucide-react";
 import { Link } from 'react-router-dom';
+import axios from 'axios'; // <-- ADD THIS
+
 
 // 1. Define specific types for your data to prevent implicit 'any' errors.
 type SeasonKey = 'spring' | 'summer' | 'monsoon' | 'winter';

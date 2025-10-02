@@ -1,6 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import { Leaf, Heart, Book, Brain, FlaskConical, Sprout } from 'lucide-react';
 import { useState } from 'react';
+import { UserProfile } from './UserProfile';
+import { ChatbotToggle } from './ChatbotToggle';
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -80,6 +82,10 @@ export const Navbar = () => {
               <Heart className="h-5 w-5 mr-2" />
               Favorites
             </NavLink>
+            
+            {/* User Profile */}
+            <UserProfile />
+            <ChatbotToggle />
           </div>
         </div>
 
@@ -126,6 +132,7 @@ export const Navbar = () => {
               <Heart className="h-5 w-5 mr-2" />
               Favorites
             </NavLink>
+            <UserProfile />
           </div>
         </div>
       </div>
